@@ -48,6 +48,12 @@ public class Emprestimo {
 		this.dataDevolucao = dataDevolucao;
 	}
 	
+	public String toString() {
+		return "Título: " + this.livro.getTitulo() + "\n" +
+	           "Autor: " + this.livro.getAutor() + "\n" +
+				"Usuário: " + this.usuario.getNome() + "\n";
+		
+	}
 	
 
 }
